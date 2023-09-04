@@ -1,8 +1,18 @@
-# React + Vite
+# Control de Presupuesto con React y Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación web que te permite llevar un registro de tu presupuesto y tus gastos diarios. Puedes categorizar tus gastos en diferentes categorías como comida, salud, suscripciones, ocio, y más.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Ingresar un presupuesto inicial.
+- Añadir gastos con nombre, cantidad y categoría.
+- Ver el balance actual y el porcentaje utilizado del presupuesto.
+- Visualizar un resumen de gastos por categoría.
+
+## Tecnologías Utilizadas
+
+- React: Una biblioteca JavaScript para construir interfaces de usuario.
+- Vite: Un entorno de desarrollo rápido para aplicaciones web con React.
+- CSS: Estilos simples y personalizados para la interfaz de usuario.
+- LocalStorage: Para almacenar datos en el navegador del usuario.
+
