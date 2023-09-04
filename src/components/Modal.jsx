@@ -2,7 +2,7 @@ import {useState} from 'react'
 import Mensaje from './Mensaje';
 import CerrarBtn from '../img/cerrar.svg'
 
-const Modal = ({setModal, animarModal, setAnimarModal}) => {
+const Modal = ({setModal, animarModal, setAnimarModal, guardarGasto}) => {
 
     const [mensaje, setMensaje] = useState('');
 
@@ -33,8 +33,12 @@ const Modal = ({setModal, animarModal, setAnimarModal}) => {
 
             return;
         }
+
+        guardarGasto({nombre, cantidad, categoria});
+
         
-    }
+    }   
+
 
 
     return (
@@ -71,7 +75,7 @@ const Modal = ({setModal, animarModal, setAnimarModal}) => {
 
                         <input
                             id='cantidad'
-                            type='text'
+                            type='number'
                             placeholder='Añade la cantidad del Gasto.   Ej: 300'
                             value={cantidad}
                             onChange={ e => setCantidad(Number(e.target.value))}
