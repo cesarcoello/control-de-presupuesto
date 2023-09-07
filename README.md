@@ -1,18 +1,29 @@
-# Control de Presupuesto con React y Vite
+# Planificador de Presupuesto
 
-Este proyecto es una aplicación web que te permite llevar un registro de tu presupuesto y tus gastos diarios. Puedes categorizar tus gastos en diferentes categorías como comida, salud, suscripciones, ocio, y más.
+Una aplicación web para planificar y llevar un registro de tus gastos personales de acuerdo a un presupuesto dado.
 
-## Características
+## Características Principales
 
-- Ingresar un presupuesto inicial.
-- Añadir gastos con nombre, cantidad y categoría.
-- Ver el balance actual y el porcentaje utilizado del presupuesto.
-- Visualizar un resumen de gastos por categoría.
+- **Presupuesto Inicial:** Ingresa un presupuesto inicial y comienza a planificar tus gastos.
+
+- **Agregar Gastos Personales:** Agrega gastos personales con nombre, cantidad y categoría (como ahorro, comida, casa, ocio, gastos varios, suscripciones).
+
+- **Resumen del Presupuesto:** Visualiza el presupuesto inicial, la cantidad gastada y la cantidad disponible de forma clara y concisa.
+
+- **Gráfica de Porcentaje Gastado:** Observa un gráfico que muestra el porcentaje del presupuesto gastado.
+
+- **Edición y Eliminación de Gastos:** Cada gasto es un componente que se puede editar o eliminar en cualquier momento.
 
 ## Tecnologías Utilizadas
 
-- React: Una biblioteca JavaScript para construir interfaces de usuario.
-- Vite: Un entorno de desarrollo rápido para aplicaciones web con React.
-- CSS: Estilos simples y personalizados para la interfaz de usuario.
-- LocalStorage: Para almacenar datos en el navegador del usuario.
+- React: Utilizado para crear la interfaz de usuario interactiva.
+- Vite: Herramienta de desarrollo rápida para aplicaciones web.
+- Local Storage: Se utiliza para almacenar los datos del usuario en el navegador.
 
+## Demo
+
+- url
+
+## Autor
+
+- Este proyecto fue desarrollado por yulyus-qaysar (github.com/yulyus-qaysar).
