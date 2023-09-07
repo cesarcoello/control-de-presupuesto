@@ -12,17 +12,17 @@ const ListadoGastos = ({
     <div className='listado-gastos contenedor'>
       
 
-        { filtro ? (
+        {   filtro ? (
             <>    
                   <h2>{gastosFiltrados.length ? 'Gastos' : 'No hay Gastos aún'}</h2>
                   {gastosFiltrados.map( gasto => (
-                    <Gasto 
-                        key={gasto.id}
-                        gasto={gasto}
-                        setGastoEditar={setGastoEditar}
-                        eliminarGasto={eliminarGasto}
-                    />
-                    ))}
+                        <Gasto 
+                            key={gasto.id}
+                            gasto={gasto}
+                            setGastoEditar={setGastoEditar}
+                            eliminarGasto={eliminarGasto}
+                        />
+                   ))}
             </>
 
         ) : (
