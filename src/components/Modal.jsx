@@ -19,6 +19,7 @@ const Modal = ({
     const [fecha, setFecha] = useState('');
     const [id, setId] = useState('');
 
+
     useEffect(() => {
         if( Object.keys(gastoEditar).length > 0) {
             setNombre(gastoEditar.nombre);
@@ -54,6 +55,8 @@ const Modal = ({
         }
 
         guardarGasto({nombre, cantidad, categoria, id, fecha});
+
+
 
         
     }   

@@ -76,7 +76,7 @@ const Gasto = ({gasto, setGastoEditar, eliminarGasto}) => {
                   </div>
               </div>
 
-                  <p className='cantidad-gasto'>L {' '}{cantidad}</p>
+                  <p className='cantidad-gasto'>L{cantidad}</p>
 
           </div>
         </SwipeableListItem>

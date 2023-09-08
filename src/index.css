@@ -82,6 +82,11 @@ header h1 {
     margin-bottom: 2rem;
 }
 
+/* .select-categoria{
+    padding-left: 0;
+    padding-right: 0;
+} */
+
 .formulario label {
     color: var(--azul);
     font-size: 2.8rem;
@@ -97,6 +102,7 @@ header h1 {
     border: none;
     flex: 1;
     font-size: 1.6rem;
+    width: 100%
 }
 .formulario input[type="submit"] {
     background-color: #1048a4;
@@ -254,6 +260,7 @@ main {
     background-color: var(--gris-claro);
 }
 
+
 .listado-gastos {
     margin-top: 5rem;
 }
@@ -350,7 +357,7 @@ main {
 }
 .modal .cerrar-modal img {
     width: 100%;
-    position: relative; /* solucion al boto cerrar modal en mobil */
+    position: relative; /* solucion al boton cerrar modal en mobil */
     z-index: 100;
 }
 
@@ -409,3 +416,37 @@ body .modal {
     font-size: 2.4rem;
     text-align: right;
 }
+
+
+/* PARA DISPOSITIVOS MOVILES */
+
+@media only screen and (max-width : 500px) { 
+    .filtros .campo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .filtros select {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .descripcion-gasto .nombre-gasto {
+        font-size: 1.8rem;
+        
+    }
+
+    .descripcion-gasto .fecha-gasto {
+        font-size: 1.4rem;
+    }
+
+    .contenido-gasto img {
+        width: 6rem;
+    }
+
+    .cantidad-gasto {
+        font-size: 2rem;
+    }
+
+    }
