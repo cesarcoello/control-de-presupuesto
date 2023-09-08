@@ -350,7 +350,12 @@ main {
 }
 .modal .cerrar-modal img {
     width: 100%;
+    position: relative; /* solucion al boto cerrar modal en mobil */
+    z-index: 100;
 }
+
+
+
 
 .modal .formulario {
     max-width: 80rem;
