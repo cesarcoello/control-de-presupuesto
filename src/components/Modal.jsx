@@ -99,6 +99,7 @@ const Modal = ({
                             id='cantidad'
                             type='number'
                             placeholder='Añade la cantidad del Gasto.   Ej: 300'
+                            min='1'
                             value={cantidad}
                             onChange={ e => setCantidad(Number(e.target.value))}
                         />
@@ -112,7 +113,7 @@ const Modal = ({
                             value={categoria}
                             onChange={ e => setCategoria(e.target.value)}
                         >
-                            <option value=''>-- Seleccione --</option>
+                            <option value='' disabled selected>-- Seleccione --</option>
                             <option value='ahorro'>Ahorro</option>
                             <option value='comida'>Comida</option>
                             <option value='casa'>Casa</option>
