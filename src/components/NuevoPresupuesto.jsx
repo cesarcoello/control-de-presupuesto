@@ -27,6 +27,7 @@ const NuevoPresupuesto = ({presupuesto, setPresupuesto, setIsValidPresupuesto}) 
                     className='nuevo-presupuesto'
                     type='number'
                     placeholder='Añade tu presupuesto'
+                    min='0'
                     value={presupuesto}
                     onChange={ e => setPresupuesto(Number(e.target.value))}
                 />
