@@ -21,7 +21,7 @@ Una aplicación web para planificar y llevar un registro de tus gastos personale
 - Local Storage: Se utiliza para almacenar los datos del usuario en el navegador.
 
 > .[!NOTE].
->[Enlace a planificador de presupuesto](https://planificador-presupuesto-yulyusqaysar.netlify.app/)
+> [Enlace a planificador de presupuesto](https://planificador-presupuesto-yulyusqaysar.netlify.app/)
 
 ## Autor
 
