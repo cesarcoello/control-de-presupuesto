@@ -20,7 +20,8 @@ Una aplicación web para planificar y llevar un registro de tus gastos personale
 - Vite: Herramienta de desarrollo rápida para aplicaciones web.
 - Local Storage: Se utiliza para almacenar los datos del usuario en el navegador.
 
-> .[!NOTE].
+> [!NOTE]
+> ## Demo
 > [Enlace a planificador de presupuesto](https://planificador-presupuesto-yulyusqaysar.netlify.app/)
 
 ## Autor
