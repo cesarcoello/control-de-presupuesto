@@ -22,7 +22,7 @@ Una aplicación web para planificar y llevar un registro de tus gastos personale
 
 > [!NOTE]
 > ## Demo
-> [Enlace a planificador de presupuesto](https://planificador-presupuesto-yulyusqaysar.netlify.app/)
+> [Enlace a planificador de presupuesto](https://planificador-presupuesto-cc.netlify.app)
 
 ## Autor
 
